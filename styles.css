@@ -1,0 +1,55 @@
+html{
+cursor:pointer;
+ scroll-behavior: smooth; 
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card {
+    border: 1px solid #ccc; /* Border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    overflow: hidden; /* Hides overflow */
+    margin: 10px; /* Spacing around the card */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.card-img-top {
+    margin-top: 15px;
+    text-align: center; /* Center the image within its container */
+    max-width: 100%;  /* Allow the image to cover the full width of its container */
+    height: 50%;     /* Maintain aspect ratio by adjusting height automatically */
+    margin: 0 auto;  /* Center the image horizontally */
+}
+
+.card img {
+    object-fit: cover; /* Crop image to fit */
+}
+
+.card-content {
+    padding: 15px; /* Padding inside the card */
+    background-color: #ffffff; /* White background for card content */
+    color: #343a40; /* Dark text color */
+    border-top: 1px solid #dee2e6; /* Light border to separate content */
+}
+
+/* Add hover effect for box-shadow */
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
